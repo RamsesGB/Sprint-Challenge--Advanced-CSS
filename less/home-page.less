@@ -4,6 +4,13 @@
 
   .intro {
 
+    .main-header-img {
+      @media @phone {
+        width: 100%;
+        height: auto;
+      }
+    }
+
     h2 {
       padding: 15px;
     }
@@ -33,6 +40,11 @@
     .launch {
       @media @phone {
         display: none
+      }
+    }
+    .blast {
+      @media @phone {
+        width: 90%;
       }
     }
   }
@@ -69,6 +81,7 @@
 
       @media @phone {
         width: 90%;
+        padding-bottom: 3%;
       }
 
       h3 {
@@ -104,7 +117,8 @@
       @media @phone {
         width: 90%;
         order: -1;
-        margin-bottom: 15px;
+        margin: 0px 0px 15px 0px;
+        
       }
       
       img {
