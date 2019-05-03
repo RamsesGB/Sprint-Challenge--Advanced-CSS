@@ -1,3 +1,11 @@
+@keyframes colorchange {
+  from {
+    color: #454A59;
+  }
+  to {
+    color: rgba(218, 35, 35, 0.911);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -193,6 +201,11 @@ p {
   color: #454A59;
   font-size: 1.4rem;
 }
+.nav-box .nav-child-box nav a:hover {
+  color: #454A59;
+  animation-name: colorchange;
+  animation-duration: 3s;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +224,11 @@ footer {
 }
 .home .intro h2 {
   padding: 15px;
+}
+.home .intro h2:hover {
+  color: #454A59;
+  animation-name: colorchange;
+  animation-duration: 3s;
 }
 .home .intro p {
   padding: 0 15px;
@@ -247,6 +265,11 @@ footer {
 .home .visit-planets h3 {
   margin-top: 11px;
 }
+.home .visit-planets h3:hover {
+  color: #454A59;
+  animation-name: colorchange;
+  animation-duration: 3s;
+}
 .home .visit-planets p {
   margin-top: 13px;
 }
@@ -265,7 +288,7 @@ footer {
     align-items: center;
     padding: 0% 0%;
     padding-top: 3%;
-    width: 500px;
+    margin-top: 3%;
   }
 }
 .home .walk .walk-text {
